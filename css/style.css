@@ -8,8 +8,9 @@ a{
 	color:black;
 }
 body{
-	background: linear-gradient(141deg, rgb(191 4 43) 0%, rgb(73 63 204) 100%);
-
+	background-image: url('topography.svg'),linear-gradient(to top left, #8307ca 21%, #a51237 100%);
+    background-attachment: fixed;
+	background-size: 400px,auto;
 }
 .heading{
 	min-height:80px;
